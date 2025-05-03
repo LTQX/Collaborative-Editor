@@ -1,60 +1,62 @@
-# Collaborative Editor
+# Kollaborativer Editor
 
-A real-time collaborative text editor application built with React and WebSocket.
+Eine kollaborative Echtzeit-Texteditor-Anwendung, die mit React und WebSocket erstellt wurde.
 
-## Prerequisites
+## Voraussetzungen
 
-- Node.js (v14 or higher)
+- Node.js (v14 oder höher)
 - npm (Node Package Manager)
 
 ## Installation
 
-1. Clone the repository
-2. Install dependencies for both server and client:
+1. Klonen Sie das Repository
+2. Installieren Sie die Abhängigkeiten für Server und Client:
 
-# Install server dependencies
-npm install
+## Server-Abhängigkeiten installieren
+npm installieren
 
-# Install client dependencies
+# Client-Abhängigkeiten installieren
 cd client
-npm install
+npm installieren
 
 
-## Starting the Application
+## Starten der Anwendung
 
-The application requires both the server and client to be running simultaneously. You'll need two terminal windows.
+Die Anwendung erfordert, dass sowohl der Server als auch der Client gleichzeitig ausgeführt werden. Sie benötigen zwei Terminalfenster.
 
-### Terminal 1 - Start the Server
-# From the root directory
+### Terminal 1 - Starten Sie den Server
+## Aus dem Stammverzeichnis
 node server.js
 
-The server will start on port 5002.
+Der Server wird auf Port 5002 gestartet.
 
-### Terminal 2 - Start the Client
-# Navigate to the client directory
+### Terminal 2 - Starten Sie den Client
+# Wechseln Sie in das Client-Verzeichnis
 cd client
 
-# Start the React development server
+# Starten Sie den React-Entwicklungsserver
 npm start
 
-The client will start on http://localhost:3000
+Der Client wird auf http://localhost:3000 gestartet.
 
-## Accessing the Application
+## Zugriff auf die Anwendung
 
-Once both servers are running:
-- Open your web browser
-- Navigate to http://localhost:3000
-- The application should load automatically
+Sobald beide Server laufen:
+- Öffnen Sie Ihren Webbrowser
+- Navigieren Sie zu http://localhost:3000
+- Die Anwendung sollte automatisch geladen werden
 
-## Development Notes
+## Hinweise zur Entwicklung
 
-- The server runs on port 5002
-- The client runs on port 3000
-- The development build is not optimized. For production, use `npm run build` in the client directory
-- You can view the application on your local network at http://172.20.10.2:3000 (your IP may vary)
+- Der Server läuft auf Port 5002
+- Der Client läuft auf Port 3000
+- Der Entwicklungs-Build ist nicht optimiert. Für die Produktion verwenden Sie `npm run build` im Client-Verzeichnis
+- Sie können die Anwendung in Ihrem lokalen Netzwerk unter http://172.20.10.2:3000 betrachten (Ihre IP kann abweichen)
 
-## Stopping the Application
+## Beenden der Anwendung
 
-To stop the application:
-1. Press `Ctrl + C` in each terminal window to stop both servers
-2. Close the browser window 
+Um die Anwendung zu beenden:
+1. Drücken Sie `Strg + C` in jedem Terminalfenster, um beide Server zu stoppen
+2. Schließen Sie das Browserfenster 
+
+Übersetzt mit DeepL.com (kostenlose Version)
