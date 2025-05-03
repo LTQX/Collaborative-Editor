@@ -1,0 +1,92 @@
+.App {
+	text-align: center;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	background-color: #f8f9fa;
+}
+
+.App-header {
+	background-color: white;
+	padding: 1rem 2rem;
+	color: #2c3e50;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+	position: sticky;
+	top: 0;
+	z-index: 100;
+}
+
+.App-header h1 {
+	margin: 0;
+	font-size: 1.5rem;
+	font-weight: 600;
+	color: #2c3e50;
+}
+
+.user-info {
+	display: flex;
+	align-items: center;
+	gap: 1.5rem;
+}
+
+.user-info span {
+	font-weight: 500;
+	color: #2c3e50;
+}
+
+.logout-btn {
+	padding: 0.5rem 1rem;
+	background-color: #dc3545;
+	color: white;
+	border: none;
+	border-radius: 6px;
+	cursor: pointer;
+	transition: all 0.2s ease;
+	font-weight: 500;
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.logout-btn:hover {
+	background-color: #c82333;
+	transform: translateY(-1px);
+}
+
+.logout-btn::before {
+	content: '🚪';
+}
+
+main {
+	flex: 1;
+	padding: 0;
+	max-width: 1400px;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.editor-container {
+	background-color: white;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+}
+
+.ql-container {
+	min-height: 400px;
+	font-size: 16px;
+	line-height: 1.6;
+}
+
+.ql-toolbar {
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+
+.ql-container {
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
