@@ -57,6 +57,4 @@ Sobald beide Server laufen:
 
 Um die Anwendung zu beenden:
 1. Drücken Sie `Strg + C` in jedem Terminalfenster, um beide Server zu stoppen
-2. Schließen Sie das Browserfenster 
-
-Übersetzt mit DeepL.com (kostenlose Version)
+2. Schliessen Sie das Browserfenster 
